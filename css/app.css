@@ -1,0 +1,135 @@
+#header{
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  background: #86af49;
+}
+
+#personal{
+  float: left;
+}
+
+#navbar{
+  float: right;
+}
+
+#body-container{
+  text-align: center;
+}
+
+#welcome-section{
+  margin-top: 50px;
+  height: 100vh;
+}
+
+#projects{
+  padding-top: 50px;
+}
+
+#contact{
+  padding-top: 50px;
+}
+
+.nav-link{
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 22px; 
+  line-height: 25px;
+}
+
+.project-tile{
+    min-height: 300px;
+    width: 100%;
+    background: #b5e7a0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.project{
+  background: #e3eaa7;
+}
+
+.button{
+  background-color: #d5e1df;
+  border: none;
+  color: black;
+  padding: 20px 34px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.fa {
+  padding: 20px;
+  width: 20px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-github{
+  background: #3A3636;
+  color: white;
+}
+
+.fa-envelope{
+  background: #2A3636;
+  color: white;
+}
+
+.fa-phone{
+  background: black;
+  color: white;
+}
+
+h1{
+  font-size: 25px;
+}
+
+body{
+  background: #b5e7a0;
+}
+
+p{
+  font-size: 20px;
+}
+
+li{
+  text-align: left;
+  font-size: 20px;
+  padding: 10px;
+}
+
+@media (max-width: 500px) {
+  #navbar{
+    float: left;
+  }
+  #header{
+    height: 150px;
+  }
+  #welcome-section{
+    padding-top: 150px;
+  }
+  #projects{
+    padding-top: 150px;
+  }
+}
